@@ -2,11 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://v-yutianran.github.io/</loc></url>
   <url><loc>https://v-yutianran.github.io/about/</loc></url>
+  <url><loc>https://v-yutianran.github.io/posts/gitpress-blog-setup/</loc></url>
   <url><loc>https://v-yutianran.github.io/posts/markdown-test/</loc></url>
   <url><loc>https://v-yutianran.github.io/posts/third-post/</loc></url>
   <url><loc>https://v-yutianran.github.io/posts/welcome/</loc></url>
   <url><loc>https://v-yutianran.github.io/search/</loc></url>
+  <url><loc>https://v-yutianran.github.io/tags/GitHub Pages/</loc></url>
+  <url><loc>https://v-yutianran.github.io/tags/GitPress/</loc></url>
   <url><loc>https://v-yutianran.github.io/tags/hello/</loc></url>
   <url><loc>https://v-yutianran.github.io/tags/markdown/</loc></url>
+  <url><loc>https://v-yutianran.github.io/tags/博客/</loc></url>
   <url><loc>https://v-yutianran.github.io/tags/测试/</loc></url>
 </urlset>

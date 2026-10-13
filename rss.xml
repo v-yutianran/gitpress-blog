@@ -7,6 +7,13 @@
     <language>zh-CN</language>
     <generator>GitPress</generator>
     <item>
+      <title>用 GitPress 在 GitHub Pages 上搭建个人博客</title>
+      <link>https://v-yutianran.github.io/posts/gitpress-blog-setup/</link>
+      <guid>https://v-yutianran.github.io/posts/gitpress-blog-setup/</guid>
+      <pubDate>Tue, 13 Oct 2026 16:00:00 GMT</pubDate>
+      <description>参考 tap6/GitPress.net，在 v-yutianran.github.io 上搭建博客，并做了一个一键发布的 skill。</description>
+    </item>
+    <item>
       <title>第三篇测试文章</title>
       <link>https://v-yutianran.github.io/posts/third-post/</link>
       <guid>https://v-yutianran.github.io/posts/third-post/</guid>
