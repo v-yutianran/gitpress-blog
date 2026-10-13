@@ -1,18 +1,15 @@
-<!DOCTYPE html><html lang="zh-CN" style="--accent: #a85a2a"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>用 GitPress 在 GitHub Pages 上搭建个人博客 — 我的 GitPress 博客</title><meta name="description" content="参考 tap6/GitPress.net，在 v-yutianran.github.io 上搭建博客，并做了一个一键发布的 skill。"><meta name="generator" content="GitPress"><link rel="canonical" href="https://v-yutianran.github.io/posts/gitpress-blog-setup/"><meta property="og:type" content="article"><meta property="og:title" content="用 GitPress 在 GitHub Pages 上搭建个人博客 — 我的 GitPress 博客"><meta property="og:description" content="参考 tap6/GitPress.net，在 v-yutianran.github.io 上搭建博客，并做了一个一键发布的 skill。"><meta property="og:url" content="https://v-yutianran.github.io/posts/gitpress-blog-setup/"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="用 GitPress 在 GitHub Pages 上搭建个人博客 — 我的 GitPress 博客"><meta name="twitter:description" content="参考 tap6/GitPress.net，在 v-yutianran.github.io 上搭建博客，并做了一个一键发布的 skill。"><meta property="article:published_time" content="2026-10-13T16:00:00.000Z"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"用 GitPress 在 GitHub Pages 上搭建个人博客","description":"参考 tap6/GitPress.net，在 v-yutianran.github.io 上搭建博客，并做了一个一键发布的 skill。","datePublished":"2026-10-13T16:00:00.000Z","url":"https://v-yutianran.github.io/posts/gitpress-blog-setup/","author":{"@type":"Person","name":"v-yutianran"}}</script><link rel="alternate" type="application/rss+xml" title="我的 GitPress 博客" href="/rss.xml"><link rel="stylesheet" href="/_astro/_page_.W3aUXSeb.css"><script id="gitpress-build-check">(function(){var BUILD_ID="e3c6d8a93c73";var META="/gitpress-build.json";var SW="/sw.js";var SCOPE="/";try{if("serviceWorker"in navigator)navigator.serviceWorker.register(SW,{scope:SCOPE});}catch(e){}fetch(META+(META.indexOf("?")>=0?"&":"?")+"t="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null;}).then(function(meta){if(!meta||!meta.id||meta.id===BUILD_ID)return;var key="gp-bust:"+meta.id;try{if(sessionStorage.getItem(key))return;sessionStorage.setItem(key,"1");}catch(e){}if(typeof caches!=="undefined"){caches.keys().then(function(keys){return Promise.all(keys.map(function(k){return caches.delete(k);}));}).finally(function(){location.reload();});}else{location.reload();}}).catch(function(){});})();</script></head> <body> <header class="site-header" data-pagefind-ignore> <div class="site-brand">  <div class="site-brand-copy">  <p class="site-title"> <a href="/">我的 GitPress 博客</a> </p> </div> </div> <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox"> <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle menu"> <span></span><span></span><span></span> </label> <p class="site-tagline">基于 GitPress 的测试博客</p> <nav class="site-nav"> <a href="/"> 首页 </a><a href="/about/"> 关于 </a><a href="/search/"> 搜索 </a> </nav> </header> <main class="site-main">  <article> <div data-pagefind-body> <header class="article-header"> <p class="post-meta"> 2026年10月14日 00:00:00  </p> <h1>用 GitPress 在 GitHub Pages 上搭建个人博客</h1> </header>  <div class="prose"> <h2 id="背景">背景</h2>
+<!DOCTYPE html><html lang="zh-CN" style="--accent: #a85a2a"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>用 GitPress 在 GitHub Pages 上搭建个人博客 — 我的 GitPress 博客</title><meta name="description" content="参考 tap6/GitPress.net，在 v-yutianran.github.io 上搭建博客，并做了一个一键发布的 skill。"><meta name="generator" content="GitPress"><link rel="canonical" href="https://v-yutianran.github.io/posts/gitpress-blog-setup/"><meta property="og:type" content="article"><meta property="og:title" content="用 GitPress 在 GitHub Pages 上搭建个人博客 — 我的 GitPress 博客"><meta property="og:description" content="参考 tap6/GitPress.net，在 v-yutianran.github.io 上搭建博客，并做了一个一键发布的 skill。"><meta property="og:url" content="https://v-yutianran.github.io/posts/gitpress-blog-setup/"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="用 GitPress 在 GitHub Pages 上搭建个人博客 — 我的 GitPress 博客"><meta name="twitter:description" content="参考 tap6/GitPress.net，在 v-yutianran.github.io 上搭建博客，并做了一个一键发布的 skill。"><meta property="article:published_time" content="2026-10-13T16:00:00.000Z"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"用 GitPress 在 GitHub Pages 上搭建个人博客","description":"参考 tap6/GitPress.net，在 v-yutianran.github.io 上搭建博客，并做了一个一键发布的 skill。","datePublished":"2026-10-13T16:00:00.000Z","url":"https://v-yutianran.github.io/posts/gitpress-blog-setup/","author":{"@type":"Person","name":"v-yutianran"}}</script><link rel="alternate" type="application/rss+xml" title="我的 GitPress 博客" href="/rss.xml"><link rel="stylesheet" href="/_astro/_page_.W3aUXSeb.css"><script id="gitpress-build-check">(function(){var BUILD_ID="804cf84bccd7";var META="/gitpress-build.json";var SW="/sw.js";var SCOPE="/";try{if("serviceWorker"in navigator)navigator.serviceWorker.register(SW,{scope:SCOPE});}catch(e){}fetch(META+(META.indexOf("?")>=0?"&":"?")+"t="+Date.now(),{cache:"no-store"}).then(function(r){return r.ok?r.json():null;}).then(function(meta){if(!meta||!meta.id||meta.id===BUILD_ID)return;var key="gp-bust:"+meta.id;try{if(sessionStorage.getItem(key))return;sessionStorage.setItem(key,"1");}catch(e){}if(typeof caches!=="undefined"){caches.keys().then(function(keys){return Promise.all(keys.map(function(k){return caches.delete(k);}));}).finally(function(){location.reload();});}else{location.reload();}}).catch(function(){});})();</script></head> <body> <header class="site-header" data-pagefind-ignore> <div class="site-brand">  <div class="site-brand-copy">  <p class="site-title"> <a href="/">我的 GitPress 博客</a> </p> </div> </div> <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox"> <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle menu"> <span></span><span></span><span></span> </label> <p class="site-tagline">基于 GitPress 的测试博客</p> <nav class="site-nav"> <a href="/"> 首页 </a><a href="/about/"> 关于 </a><a href="/search/"> 搜索 </a> </nav> </header> <main class="site-main">  <article> <div data-pagefind-body> <header class="article-header"> <p class="post-meta"> 2026年10月14日 00:00:00  </p> <h1>用 GitPress 在 GitHub Pages 上搭建个人博客</h1> </header>  <div class="prose"> <h2 id="背景">背景</h2>
 <p>我想参考 <a href="https://github.com/tap6/GitPress.net">GitPress.net</a>，在自己的 GitHub 上搭一个博客，并先放三篇测试文章。</p>
 <h2 id="1-了解-gitpress">1. 了解 GitPress</h2>
 <p>GitPress.net 是一个基于 pnpm 的博客框架。文章和设置写在 Markdown 和 <code>gitpress.json</code> 里，由 GitHub Actions 构建成静态网站，再交给 GitHub Pages 托管。官方推荐用两个仓库：一个私有仓库放文章，一个公开仓库放构建好的网站。</p>
 <h2 id="2-新建仓库并部署">2. 新建仓库并部署</h2>
-<p>电脑上的 <code>gh</code> 已经登录，所以直接用 gh 新建了仓库，没有在网页上手动建。</p>
+<p>电脑上的 <code>gh</code> 已经登录，所以直接用 gh 新建仓库，没有在网页上手动建。</p>
+<p>一开始图省事，只用了一个公开仓库：<code>source</code> 分支放源码，<code>main</code> 分支放构建产物。后来发现每次写文章都要切分支，草稿在公开源码里也能被看到，于是改成了官方推荐的两个仓库：</p>
 <ul>
-<li>用一个公开仓库代替官方的两个仓库：
-<ul>
-<li><code>source</code> 分支放源码：<code>gitpress.json</code>、<code>content/posts/</code>、<code>content/pages/about.md</code>、<code>media/</code>，主题是 <code>classic</code>。</li>
-<li><code>main</code> 分支放构建产物，每次构建都会被整个覆盖，不要手动改。</li>
-</ul>
-</li>
-<li>每次推送到 <code>source</code>，工作流就用 <code>tap6/build-action@v1</code> 构建，再用仓库自带的 token 推送到 <code>main</code>，不需要单独配置部署密钥。</li>
-<li>GitHub Pages 从 <code>main</code> 分支的根目录提供网站。</li>
+<li>私有仓库 <code>v-yutianran/gitpress-source</code>（<code>main</code> 分支）：放 <code>gitpress.json</code>、<code>content/posts/</code>、<code>content/pages/about.md</code>、<code>media/</code>，主题是 <code>classic</code>。</li>
+<li>公开仓库 <code>v-yutianran/v-yutianran.github.io</code>：只放构建好的网站，由工作流自动更新。</li>
+<li>每次推送到私有仓库的 <code>main</code>，“GitPress Build” 工作流就用 <code>tap6/build-action@v1</code> 构建，再通过部署密钥（公开仓库上一把可写的 SSH deploy key，私钥存成私有仓库的 <code>GITPRESS_DEPLOY_KEY</code> secret）推送到公开仓库的 <code>main</code>。</li>
+<li>GitHub Pages 从公开仓库 <code>main</code> 分支的根目录提供网站。</li>
 </ul>
 <p>三篇测试文章：</p>
 <ol>
@@ -32,16 +29,18 @@
 <ol>
 <li>补全 frontmatter（标题、日期、标签、摘要）</li>
 <li>用英文 slug 保存到 <code>content/posts/</code></li>
-<li>推送到 <code>source</code> 分支，并等待构建和部署完成</li>
+<li>推送到私有仓库 <code>gitpress-source</code> 的 <code>main</code> 分支，并等待构建和部署完成</li>
 <li>检查文章能正常打开，再返回线上链接</li>
+<li>部署完成后用 tg-notify 给我发一条 Telegram 通知，附上标题和链接</li>
 </ol>
 <h2 id="注意事项">注意事项</h2>
 <ul>
-<li>仓库是公开的，<code>draft: true</code> 的草稿不会出现在网站上，但在源码里能被看到。想藏起来的话，可以改回官方的一私一公两个仓库。</li>
-<li>不要手动编辑 <code>main</code> 分支。</li>
+<li>文章和草稿都在私有仓库里，<code>draft: true</code> 的草稿不会出现在网站上，也不会公开。</li>
+<li>公开仓库的 <code>main</code> 每次构建都会被整个覆盖，改内容请改私有仓库。</li>
 </ul>
 <h2 id="链接">链接</h2>
 <ul>
 <li>博客：<a href="https://v-yutianran.github.io/">https://v-yutianran.github.io/</a></li>
-<li>仓库：<a href="https://github.com/v-yutianran/v-yutianran.github.io">https://github.com/v-yutianran/v-yutianran.github.io</a></li>
+<li>网站仓库：<a href="https://github.com/v-yutianran/v-yutianran.github.io">https://github.com/v-yutianran/v-yutianran.github.io</a></li>
+<li>源码仓库（私有）：<code>v-yutianran/gitpress-source</code></li>
 </ul> </div> </div> <nav class="tag-list"> <a href="/tags/GitPress/">#GitPress</a><a href="/tags/GitHub%20Pages/">#GitHub Pages</a><a href="/tags/%E5%8D%9A%E5%AE%A2/">#博客</a> </nav>  </article>  </main> <footer class="site-footer" data-pagefind-ignore> <ul class="site-footer-list"> <li> <span>© 2026 我的 GitPress 博客</span> </li><li> <a href="https://gitpress.net" target="_blank" rel="generator">  由 GitPress 驱动 </a> </li><li> <a href="https://github.com/tap6/gitpress" target="_blank" rel="noopener noreferrer">  主题 Classic </a> </li><li> <a href="/rss.xml">  RSS </a> </li> </ul> </footer> </body></html>
