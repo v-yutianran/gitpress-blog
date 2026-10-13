@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>我的 GitPress 博客</title>
+    <link>https://v-yutianran.github.io/gitpress-blog</link>
+    <description>基于 GitPress 的测试博客</description>
+    <language>zh-CN</language>
+    <generator>GitPress</generator>
+    <item>
+      <title>第三篇测试文章</title>
+      <link>https://v-yutianran.github.io/gitpress-blog/posts/third-post/</link>
+      <guid>https://v-yutianran.github.io/gitpress-blog/posts/third-post/</guid>
+      <pubDate>Tue, 13 Oct 2026 16:00:00 GMT</pubDate>
+      <description>第三篇测试文章。</description>
+    </item>
+    <item>
+      <title>Markdown 写作测试</title>
+      <link>https://v-yutianran.github.io/gitpress-blog/posts/markdown-test/</link>
+      <guid>https://v-yutianran.github.io/gitpress-blog/posts/markdown-test/</guid>
+      <pubDate>Mon, 12 Oct 2026 16:00:00 GMT</pubDate>
+      <description>测试标题、代码、列表和表格的渲染效果。</description>
+    </item>
+    <item>
+      <title>欢迎来到我的博客</title>
+      <link>https://v-yutianran.github.io/gitpress-blog/posts/welcome/</link>
+      <guid>https://v-yutianran.github.io/gitpress-blog/posts/welcome/</guid>
+      <pubDate>Sun, 11 Oct 2026 16:00:00 GMT</pubDate>
+      <description>第一篇测试文章。</description>
+    </item>
+  </channel>
+</rss>

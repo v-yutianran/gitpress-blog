@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://v-yutianran.github.io/gitpress-blog/sitemap.xml
